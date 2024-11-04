@@ -23,7 +23,7 @@ Payment process
 <img width="991" alt="Screenshot 2024-11-04 at 19 40 10" src="https://github.com/user-attachments/assets/c3007ce7-e06f-43bb-92ff-eb4c4c0beb26">
 
 
-Shipping Adress
+Shipping Address
 
 
 <img width="981" alt="Screenshot 2024-11-04 at 19 41 22" src="https://github.com/user-attachments/assets/500d56f6-d74c-44d5-bf9b-6caaf7884ead">
