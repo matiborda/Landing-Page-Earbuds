@@ -1,0 +1,88 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31)
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 400px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    perspective: 500px;
+}
+
+.logo {
+    width: 300px;
+    height: 230px;
+    background-image: url(ear.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 7px 21px #fff);
+    animation: rotar 5s linear infinite;
+}
+
+
+
+@keyframes rotar {
+    from {
+        transform: rotateY(180deg);
+    }
+
+    to {
+        transform: rotateY(-180deg);
+    }
+}
+
+.bottom_part {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111113;
+    transform: rotateX(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_part::before {
+    content: "";
+    width: 16rem;
+    height: 16rem;
+    position: absolute;
+    bottom: 5rem;
+    background: #7D7C7C;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111113;
+    filter: blur(30px);
+}
+
+.click {
+    position: relative;
+    bottom: 300px;
+    color: white;
+    font-size: 25px;
+    background-color: #242424;
+    filter: blur(0.6px);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+a {
+    text-decoration: none;
+}
